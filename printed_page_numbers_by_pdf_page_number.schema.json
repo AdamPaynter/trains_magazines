@@ -12,14 +12,7 @@
   "additionalProperties": false,
   "properties": {
     "magazine": {
-      "type": "string",
-      "enum": [
-        "model_railroader",
-        "trains",
-        "classic_trains",
-        "garden_railways"
-      ],
-      "description": "Magazine identifier."
+      "$ref": "common.schema.json#/$defs/MagazineKey"
     },
     "schema_version": {
       "type": "integer",
@@ -27,9 +20,9 @@
     },
     "issues": {
       "type": "object",
-      "description": "Map from issue date (YYYY-MM) to page mapping data.",
+      "description": "Map from IssueKey to page mapping data.",
       "propertyNames": {
-        "pattern": "^\\d{4}-\\d{2}$"
+        "$ref": "common.schema.json#/$defs/IssueKey"
       },
       "additionalProperties": {
         "type": "object",
@@ -40,16 +33,15 @@
         "properties": {
           "printed_page_numbers_by_pdf_page_number": {
             "type": "object",
-            "description": "Maps a pdf_page_number (1-based index into the PDF file, as a numeric string key) to one or more printed_page_numbers. Single-element lists for normal pages; multi-element for gatefold pages that span multiple printed pages. Chrome and cover pages without a printed_page_number are omitted. printed_page_numbers are strings: purely numeric (\"42\") or lettered for insert sections (\"30b\", \"30c\").",
+            "description": "Maps a pdf_page_number (as a numeric string key) to one or more printed_page_numbers. Single-element lists for normal pages; multi-element for gatefold pages that span multiple printed pages. Chrome and cover pages without a printed_page_number are omitted.",
             "propertyNames": {
-              "pattern": "^[1-9]\\d*$"
+              "$ref": "common.schema.json#/$defs/PdfPageNumber"
             },
             "additionalProperties": {
               "type": "array",
               "minItems": 1,
               "items": {
-                "type": "string",
-                "pattern": "^\\d+[a-z]?$"
+                "$ref": "common.schema.json#/$defs/PrintedPageNumber"
               }
             }
           }

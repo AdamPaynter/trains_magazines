@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Common type definitions for the trains_magazines corpus",
+  "$defs": {
+    "MagazineKey": {
+      "type": "string",
+      "enum": [
+        "model_railroader",
+        "trains",
+        "classic_trains",
+        "garden_railways"
+      ],
+      "description": "Opaque key identifying a magazine title in the corpus."
+    },
+    "IssueKey": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$",
+      "description": "Opaque key identifying a single issue of a magazine. Currently always YYYY-MM (e.g. \"1982-03\"), but the format may broaden to accommodate seasonally published titles."
+    },
+    "PdfPageNumber": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "1-based index of a page within a PDF file. Determined by the curator who scanned the original paper copy; may include incidental pages such as tear-out cards that do not correspond to any printed_page_number."
+    },
+    "PrintedPageNumber": {
+      "type": "string",
+      "pattern": "^\\d+[a-z]?$",
+      "description": "Page number as it appeared on the physical printed page. Purely numeric for regular pages (e.g. \"42\"); suffixed with a lowercase letter for insert sections (e.g. \"30b\", \"30c\"). In older issues, numbering may continue across months within a year rather than resetting per issue."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "key": "garden_railways",
+  "name": "Garden Railways",
+  "publisher": "Kalmbach Publishing Co.",
+  "frequency": "bimonthly",
+  "description": "Dedicated to large-scale (G scale) outdoor garden railroading.",
+  "corpus": {
+    "earliest_issue_key": "2003-06",
+    "latest_issue_key": "2014-08",
+    "issue_count": 2
+  }
+}

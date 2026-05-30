@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "magazine.schema.json",
+  "title": "Magazine Metadata",
+  "description": "Metadata about a magazine title in the corpus.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "key",
+    "name",
+    "publisher",
+    "frequency",
+    "description",
+    "corpus"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "key": {
+      "$ref": "common.schema.json#/$defs/MagazineKey"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full display name of the magazine."
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Name of the publishing company."
+    },
+    "frequency": {
+      "type": "string",
+      "enum": [
+        "monthly",
+        "bimonthly",
+        "quarterly",
+        "semiannual",
+        "annual"
+      ],
+      "description": "Publication frequency."
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the magazine's editorial focus."
+    },
+    "corpus": {
+      "type": "object",
+      "description": "Statistics about this magazine's coverage in the corpus.",
+      "required": [
+        "earliest_issue_key",
+        "latest_issue_key",
+        "issue_count"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "earliest_issue_key": {
+          "$ref": "common.schema.json#/$defs/IssueKey"
+        },
+        "latest_issue_key": {
+          "$ref": "common.schema.json#/$defs/IssueKey"
+        },
+        "issue_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of distinct issues present in the corpus."
+        }
+      }
+    }
+  }
+}

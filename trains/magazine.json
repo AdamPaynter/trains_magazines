@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "key": "trains",
+  "name": "Trains",
+  "publisher": "Kalmbach Publishing Co.",
+  "frequency": "monthly",
+  "description": "News, history, and photography covering North American railroading.",
+  "corpus": {
+    "earliest_issue_key": "1940-11",
+    "latest_issue_key": "2026-06",
+    "issue_count": 1016
+  }
+}

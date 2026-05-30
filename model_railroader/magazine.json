@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "key": "model_railroader",
+  "name": "Model Railroader",
+  "publisher": "Kalmbach Publishing Co.",
+  "frequency": "monthly",
+  "description": "The leading hobbyist magazine covering scale model railroading.",
+  "corpus": {
+    "earliest_issue_key": "1934-01",
+    "latest_issue_key": "2026-06",
+    "issue_count": 1107
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "key": "classic_trains",
+  "name": "Classic Trains",
+  "publisher": "Kalmbach Publishing Co.",
+  "frequency": "quarterly",
+  "description": "Celebrating the golden age of American railroading through history and photography.",
+  "corpus": {
+    "earliest_issue_key": "2000-03",
+    "latest_issue_key": "2026-03",
+    "issue_count": 103
+  }
+}

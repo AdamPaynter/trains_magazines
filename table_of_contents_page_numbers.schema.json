@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "table_of_contents_pages.schema.json",
+  "$id": "table_of_contents_page_numbers.schema.json",
   "title": "Table of Contents Page Locations",
   "description": "Human-reviewed PDF page locations of the Table of Contents for each issue of a magazine. Sourced from the trains_magazine_extractor review pipeline.",
   "type": "object",

@@ -3,13 +3,13 @@
   "schema_version": 1,
   "issues": {
     "2003-06": {
-      "pdf_pages": [
+      "pdf_page_numbers": [
         145
       ],
       "no_ioa": false
     },
     "2014-08": {
-      "pdf_pages": [
+      "pdf_page_numbers": [
         81
       ],
       "no_ioa": false

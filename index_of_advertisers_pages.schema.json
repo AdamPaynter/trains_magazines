@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "index_of_advertisers_pages.schema.json",
+  "title": "Index of Advertisers Page Locations",
+  "description": "Human-reviewed PDF page locations of the Index of Advertisers for each issue of a magazine. Sourced from the trains_magazine_extractor review pipeline.",
+  "type": "object",
+  "required": [
+    "magazine",
+    "schema_version",
+    "issues"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "magazine": {
+      "type": "string",
+      "enum": [
+        "model_railroader",
+        "trains",
+        "classic_trains",
+        "garden_railways"
+      ],
+      "description": "Magazine identifier."
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "issues": {
+      "type": "object",
+      "description": "Map from issue date (YYYY-MM) to IOA location data.",
+      "propertyNames": {
+        "pattern": "^\\d{4}-\\d{2}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "pdf_page_numbers",
+          "no_ioa"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "pdf_page_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "description": "1-based PDF page indices containing the Index of Advertisers. May be multiple pages when the index spans several pages. Empty array when no_ioa is true."
+          },
+          "no_ioa": {
+            "type": "boolean",
+            "description": "True when a reviewer confirmed no Index of Advertisers exists in this issue."
+          }
+        }
+      }
+    }
+  }
+}

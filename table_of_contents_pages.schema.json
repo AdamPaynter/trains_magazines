@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "table_of_contents_pages.schema.json",
+  "title": "Table of Contents Page Locations",
+  "description": "Human-reviewed PDF page locations of the Table of Contents for each issue of a magazine. Sourced from the trains_magazine_extractor review pipeline.",
+  "type": "object",
+  "required": [
+    "magazine",
+    "schema_version",
+    "issues"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "magazine": {
+      "type": "string",
+      "enum": [
+        "model_railroader",
+        "trains",
+        "classic_trains",
+        "garden_railways"
+      ],
+      "description": "Magazine identifier."
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "issues": {
+      "type": "object",
+      "description": "Map from issue date (YYYY-MM) to TOC location data.",
+      "propertyNames": {
+        "pattern": "^\\d{4}-\\d{2}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "pdf_page_numbers",
+          "no_toc"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "pdf_page_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "description": "1-based PDF page indices containing the Table of Contents. Usually one element; occasionally two for a spread TOC. Empty array when no_toc is true."
+          },
+          "no_toc": {
+            "type": "boolean",
+            "description": "True when a reviewer confirmed no Table of Contents exists in this issue."
+          }
+        }
+      }
+    }
+  }
+}

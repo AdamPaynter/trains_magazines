@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "page_maps.schema.json",
+  "title": "PDF-to-Printed Page Maps",
+  "description": "Maps each PDF page index to its corresponding printed page number(s) for each issue. Derived from human-reviewed anchor points via the trains_magazine_extractor page-number inference pipeline.",
+  "type": "object",
+  "required": [
+    "magazine",
+    "schema_version",
+    "issues"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "magazine": {
+      "type": "string",
+      "enum": [
+        "model_railroader",
+        "trains",
+        "classic_trains",
+        "garden_railways"
+      ],
+      "description": "Magazine identifier."
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "issues": {
+      "type": "object",
+      "description": "Map from issue date (YYYY-MM) to page mapping data.",
+      "propertyNames": {
+        "pattern": "^\\d{4}-\\d{2}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "pdf_to_printed"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "pdf_to_printed": {
+            "type": "object",
+            "description": "Maps a 1-based PDF page index (as a numeric string key) to a list of printed page identifiers. Single-element lists for normal pages; multi-element for gatefold pages that span multiple printed pages. Chrome and cover pages without a printed number are omitted. Printed page identifiers are strings: purely numeric (\"42\") or lettered for insert sections (\"30b\", \"30c\").",
+            "propertyNames": {
+              "pattern": "^[1-9]\\d*$"
+            },
+            "additionalProperties": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "pattern": "^\\d+[a-z]?$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

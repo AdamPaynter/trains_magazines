@@ -3,7 +3,7 @@
   "schema_version": 1,
   "issues": {
     "2014-08": {
-      "pdf_to_printed": {
+      "pdf_page_number_to_printed_page_numbers": {
         "1": [
           "1"
         ],

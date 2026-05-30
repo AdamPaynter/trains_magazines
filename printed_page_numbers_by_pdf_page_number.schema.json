@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "page_maps.schema.json",
-  "title": "PDF-to-Printed Page Number Maps",
+  "$id": "printed_page_numbers_by_pdf_page_number.schema.json",
+  "title": "Printed Page Numbers by PDF Page Number",
   "description": "Maps each pdf_page_number to its corresponding printed_page_number(s) for each issue. Derived from human-reviewed anchor points via the trains_magazine_extractor page-number inference pipeline.",
   "type": "object",
   "required": [

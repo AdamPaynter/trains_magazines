@@ -34,11 +34,11 @@
       "additionalProperties": {
         "type": "object",
         "required": [
-          "pdf_page_number_to_printed_page_numbers"
+          "printed_page_numbers_by_pdf_page_number"
         ],
         "additionalProperties": false,
         "properties": {
-          "pdf_page_number_to_printed_page_numbers": {
+          "printed_page_numbers_by_pdf_page_number": {
             "type": "object",
             "description": "Maps a pdf_page_number (1-based index into the PDF file, as a numeric string key) to one or more printed_page_numbers. Single-element lists for normal pages; multi-element for gatefold pages that span multiple printed pages. Chrome and cover pages without a printed_page_number are omitted. printed_page_numbers are strings: purely numeric (\"42\") or lettered for insert sections (\"30b\", \"30c\").",
             "propertyNames": {

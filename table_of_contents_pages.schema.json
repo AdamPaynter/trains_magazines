@@ -34,8 +34,7 @@
       "additionalProperties": {
         "type": "object",
         "required": [
-          "pdf_page_numbers",
-          "no_toc"
+          "pdf_page_numbers"
         ],
         "additionalProperties": false,
         "properties": {
@@ -45,11 +44,7 @@
               "type": "integer",
               "minimum": 1
             },
-            "description": "1-based PDF page indices containing the Table of Contents. Usually one element; occasionally two for a spread TOC. Empty array when no_toc is true."
-          },
-          "no_toc": {
-            "type": "boolean",
-            "description": "True when a reviewer confirmed no Table of Contents exists in this issue."
+            "description": "1-based pdf_page_numbers containing the Table of Contents. Usually one element; occasionally two for a spread TOC. Empty array when the reviewer confirmed no TOC exists in this issue."
           }
         }
       }

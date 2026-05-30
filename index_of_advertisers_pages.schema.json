@@ -34,8 +34,7 @@
       "additionalProperties": {
         "type": "object",
         "required": [
-          "pdf_page_numbers",
-          "no_ioa"
+          "pdf_page_numbers"
         ],
         "additionalProperties": false,
         "properties": {
@@ -45,11 +44,7 @@
               "type": "integer",
               "minimum": 1
             },
-            "description": "1-based PDF page indices containing the Index of Advertisers. May be multiple pages when the index spans several pages. Empty array when no_ioa is true."
-          },
-          "no_ioa": {
-            "type": "boolean",
-            "description": "True when a reviewer confirmed no Index of Advertisers exists in this issue."
+            "description": "1-based pdf_page_numbers containing the Index of Advertisers. May be multiple pages when the index spans several pages. Empty array when the reviewer confirmed no IOA exists in this issue."
           }
         }
       }

@@ -1,0 +1,16 @@
+{
+  "magazine": "garden_railways",
+  "schema_version": 1,
+  "issues": {
+    "2014-08": {
+      "pdf_to_printed": {
+        "1": [
+          "1"
+        ],
+        "42": [
+          "42"
+        ]
+      }
+    }
+  }
+}

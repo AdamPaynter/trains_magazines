@@ -1,0 +1,18 @@
+{
+  "magazine": "garden_railways",
+  "schema_version": 1,
+  "issues": {
+    "2003-06": {
+      "pdf_pages": [
+        145
+      ],
+      "no_ioa": false
+    },
+    "2014-08": {
+      "pdf_pages": [
+        81
+      ],
+      "no_ioa": false
+    }
+  }
+}

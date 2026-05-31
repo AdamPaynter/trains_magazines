@@ -10,6 +10,8 @@
     "schema_version",
     "first_pdf_page",
     "last_pdf_page",
+    "first_printed_page",
+    "last_printed_page",
     "pages"
   ],
   "additionalProperties": false,
@@ -31,6 +33,28 @@
     "last_pdf_page": {
       "$ref": "common.schema.json#/$defs/PdfPageNumber",
       "description": "PDF page number of the last page in this issue (i.e. the total page count)."
+    },
+    "first_printed_page": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/PrintedPageNumber"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Printed page number of the first confirmed editorial page in the issue. Null when no editorial pages have been confirmed yet."
+    },
+    "last_printed_page": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/PrintedPageNumber"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Printed page number of the last confirmed editorial page in the issue. Null when no editorial pages have been confirmed yet."
     },
     "pdf_hashes": {
       "type": "object",

@@ -4,6 +4,8 @@
   "schema_version": 1,
   "first_pdf_page": 1,
   "last_pdf_page": 52,
+  "first_printed_page": "266",
+  "last_printed_page": "312",
   "pages": [
     {
       "pdf_page": 1,

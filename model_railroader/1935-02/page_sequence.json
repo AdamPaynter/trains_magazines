@@ -1,0 +1,148 @@
+{
+  "magazine": "model_railroader",
+  "issue": "1935-02",
+  "schema_version": 1,
+  "things": [
+    {
+      "pdf_page": 1,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 2,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 3,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 4,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 5,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 6,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 7,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 8,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 9,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 10,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 11,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 12,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 13,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 14,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 15,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 16,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 17,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 18,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 19,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 20,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 21,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 22,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 23,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 24,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 25,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 26,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 27,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 28,
+      "type": "editorial_page",
+      "printed_page": "56",
+      "source": "human"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "magazine": "model_railroader",
+  "issue": "1937-04",
+  "schema_version": 1,
+  "things": [
+    {
+      "pdf_page": 1,
+      "type": "unnumbered",
+      "source": "human"
+    },
+    {
+      "pdf_page": 2,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 3,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 4,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 5,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 6,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 7,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 8,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 9,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 10,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 11,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 12,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 13,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 14,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 15,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 16,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 17,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 18,
+      "type": "editorial_page",
+      "printed_page": "142",
+      "source": "human"
+    },
+    {
+      "pdf_page": 19,
+      "type": "editorial_page",
+      "printed_page": "143",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 20,
+      "type": "editorial_page",
+      "printed_page": "144",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 21,
+      "type": "editorial_page",
+      "printed_page": "145",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 22,
+      "type": "editorial_page",
+      "printed_page": "146",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 23,
+      "type": "editorial_page",
+      "printed_page": "147",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 24,
+      "type": "editorial_page",
+      "printed_page": "148",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 25,
+      "type": "editorial_page",
+      "printed_page": "149",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 26,
+      "type": "editorial_page",
+      "printed_page": "150",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 27,
+      "type": "editorial_page",
+      "printed_page": "151",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 28,
+      "type": "editorial_page",
+      "printed_page": "152",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 29,
+      "type": "editorial_page",
+      "printed_page": "153",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 30,
+      "type": "editorial_page",
+      "printed_page": "154",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 31,
+      "type": "editorial_page",
+      "printed_page": "155",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 32,
+      "type": "editorial_page",
+      "printed_page": "156",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 33,
+      "type": "editorial_page",
+      "printed_page": "157",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 34,
+      "type": "editorial_page",
+      "printed_page": "158",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 35,
+      "type": "editorial_page",
+      "printed_page": "159",
+      "source": "inferred"
+    },
+    {
+      "pdf_page": 36,
+      "type": "editorial_page",
+      "printed_page": "160",
+      "source": "human"
+    }
+  ]
+}

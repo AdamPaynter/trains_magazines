@@ -1,0 +1,1187 @@
+{
+  "magazine": "model_railroader",
+  "issue": "1988-12",
+  "schema_version": 1,
+  "things": [
+    {
+      "pdf_page": 1,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 2,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 3,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 4,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 5,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 6,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 7,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 8,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 9,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 10,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 11,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 12,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 13,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 14,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 15,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 16,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 17,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 18,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 19,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 20,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 21,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 22,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 23,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 24,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 25,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 26,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 27,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 28,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 29,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 30,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 31,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 32,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 33,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 34,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 35,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 36,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 37,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 38,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 39,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 40,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 41,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 42,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 43,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 44,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 45,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 46,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 47,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 48,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 49,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 50,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 51,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 52,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 53,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 54,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 55,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 56,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 57,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 58,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 59,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 60,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 61,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 62,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 63,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 64,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 65,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 66,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 67,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 68,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 69,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 70,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 71,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 72,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 73,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 74,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 75,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 76,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 77,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 78,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 79,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 80,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 81,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 82,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 83,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 84,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 85,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 86,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 87,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 88,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 89,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 90,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 91,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 92,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 93,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 94,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 95,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 96,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 97,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 98,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 99,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 100,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 101,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 102,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 103,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 104,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 105,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 106,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 107,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 108,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 109,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 110,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 111,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 112,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 113,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 114,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 115,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 116,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 117,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 118,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 119,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 120,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 121,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 122,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 123,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 124,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 125,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 126,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 127,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 128,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 129,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 130,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 131,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 132,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 133,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 134,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 135,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 136,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 137,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 138,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 139,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 140,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 141,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 142,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 143,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 144,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 145,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 146,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 147,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 148,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 149,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 150,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 151,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 152,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 153,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 154,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 155,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 156,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 157,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 158,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 159,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 160,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 161,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 162,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 163,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 164,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 165,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 166,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 167,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 168,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 169,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 170,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 171,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 172,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 173,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 174,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 175,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 176,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 177,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 178,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 179,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 180,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 181,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 182,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 183,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 184,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 185,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 186,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 187,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 188,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 189,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 190,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 191,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 192,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 193,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 194,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 195,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 196,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 197,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 198,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 199,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 200,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 201,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 202,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 203,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 204,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 205,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 206,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 207,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 208,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 209,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 210,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 211,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 212,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 213,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 214,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 215,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 216,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 217,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 218,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 219,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 220,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 221,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 222,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 223,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 224,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 225,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 226,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 227,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 228,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 229,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 230,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 231,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 232,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 233,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 234,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 235,
+      "type": "unknown",
+      "source": "unknown"
+    },
+    {
+      "pdf_page": 236,
+      "type": "unknown",
+      "source": "unknown"
+    }
+  ]
+}

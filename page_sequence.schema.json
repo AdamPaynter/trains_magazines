@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "page_sequence.schema.json",
+  "title": "PDF Page Sequence",
+  "description": "Complete, ordered sequence of all physical things found on each PDF page for one issue of a magazine. Stored at {mag}/{issue}/page_sequence.json. One PDF page may contribute multiple adjacent entries (e.g. a gatefold spanning several printed pages). Each entry carries a source field indicating how the information was determined.",
+  "type": "object",
+  "required": [
+    "magazine",
+    "issue",
+    "schema_version",
+    "things"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "magazine": {
+      "$ref": "common.schema.json#/$defs/MagazineKey"
+    },
+    "issue": {
+      "$ref": "common.schema.json#/$defs/IssueKey"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "things": {
+      "type": "array",
+      "description": "Ordered sequence of things, one per physical object in the PDF. Array order mirrors PDF page order. One pdf_page value may appear in multiple consecutive entries when a single PDF page contains several printed pages (gatefolds, concatenation accidents).",
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "type",
+          "source"
+        ],
+        "properties": {
+          "pdf_page": {
+            "$ref": "common.schema.json#/$defs/PdfPageNumber"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "editorial_page",
+              "card_face",
+              "unnumbered",
+              "unknown"
+            ]
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "human",
+              "ocr",
+              "inferred",
+              "unknown"
+            ],
+            "description": "How this entry was determined. \"human\": directly reviewed by a human in the review UI. \"ocr\": page number read from the rendered page image by OCR. \"inferred\": derived by linear interpolation across a verified clean gap (extra=0) between two human/OCR anchors. \"unknown\": pdf_page exists in the PDF but its content has not been determined."
+          }
+        },
+        "if": {
+          "properties": {
+            "type": {
+              "const": "editorial_page"
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "printed_page"
+          ],
+          "properties": {
+            "printed_page": {
+              "$ref": "common.schema.json#/$defs/PrintedPageNumber",
+              "description": "The page number as it appeared printed on the physical page."
+            }
+          }
+        },
+        "else": {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "card_face"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "side",
+              "associated_page"
+            ],
+            "properties": {
+              "side": {
+                "type": "string",
+                "enum": [
+                  "front",
+                  "back"
+                ],
+                "description": "Which face of the subscription/reply card this PDF page shows."
+              },
+              "associated_page": {
+                "type": "string",
+                "pattern": "^\\d+$",
+                "description": "The printed_page_number of the last editorial page immediately preceding this card in the physical issue. E.g. \"82\" if the card appears after printed page 82."
+              }
+            }
+          },
+          "else": {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "unnumbered"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "subtype": {
+                  "type": "string",
+                  "enum": [
+                    "cover",
+                    "back_cover",
+                    "inside_cover",
+                    "blank",
+                    "insert"
+                  ],
+                  "description": "Optional finer classification of the unnumbered page."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -423,5 +423,10 @@
       "type": "unknown",
       "source": "unknown"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "f97002298601725ea7bd175fdd3d9f5f",
+    "sha256": "38c8bdfa11ac461eb61b3489078562f6bdfa2f0bbb1091633108ccc20088ff03",
+    "sha512": "ef24a1ea0094d072ca1eb5bb498ca4b1d8e1c63b3337de907c14a47cd5cf8c1394dc15f15e10c0a1df17aa48ac9cdb5ad0c619bbaa762eac74940788b3ec6a3a"
+  }
 }

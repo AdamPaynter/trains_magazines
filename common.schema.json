@@ -25,8 +25,8 @@
     },
     "PrintedPageNumber": {
       "type": "string",
-      "pattern": "^\\d+[a-z]*$",
-      "description": "Page number as it appeared on the physical printed page. Purely numeric for regular pages (e.g. \"42\"); suffixed with one or more lowercase letters for insert sections (e.g. \"30b\"). In older issues, numbering may continue across months within a year rather than resetting per issue."
+      "pattern": "^([A-Z]-?\\d+|\\d+[a-z]*)$",
+      "description": "Page number as it appeared on the physical printed page. Purely numeric for regular pages (e.g. \"42\"); suffixed with one or more lowercase letters for insert sections (e.g. \"30b\"). Uppercase-prefixed for named supplements \u2014 with hyphen (e.g. \"R-12\" for the Kalmbach Resource Guide) or without (e.g. \"D1\", \"D2\" for club directory sections). In older issues, numbering may continue across months within a year rather than resetting per issue."
     }
   }
 }

@@ -620,8 +620,14 @@
     },
     {
       "pdf_page": 124,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "100",
+      "source": "human"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "fbf33f3311ec44f839c1a4193a4f3e86",
+    "sha256": "dc778291a2680de7e3e1cf778844919a180045ee8d8076fc1a644b61752bea14",
+    "sha512": "0fc7094f3623784f7084db1c892412cc82de9c4bd04e9aa0a538b592591c987df77794c0480c96fbe36729a787c6bf597680c95d6c8a56d7c0855f8487db2bf5"
+  }
 }

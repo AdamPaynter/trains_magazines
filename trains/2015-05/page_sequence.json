@@ -598,5 +598,10 @@
       "printed_page": "24",
       "source": "ocr"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "adcfa2cd290d1e6592d612147ac24b0b",
+    "sha256": "cd2ec870b0d91b955736eb76d80da51046716a66892d905f3be00f6e4e538069",
+    "sha512": "9f97f24c74f8d25a9cf26c037c5d7d22183c8abb0a268dba6690eda367e1fe0403bb3caace52d7b57ee685ee651c2e747ef009ae3b1239b23081fb6240eff616"
+  }
 }

@@ -669,8 +669,13 @@
     {
       "pdf_page": 112,
       "type": "editorial_page",
-      "printed_page": "2",
-      "source": "ocr"
+      "printed_page": "108",
+      "source": "human"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "c3195c522d2a66d345717d6aea2ee17f",
+    "sha256": "2616475a7399750b5576ea6fd680ab2723dea5de36cab11a98c04960ab968be2",
+    "sha512": "36cf56b183bebd41d3a37d0f6a34ee535d976face4615ac86ec8a6ba2fe3db51967000002f1a02b43f2d4397a32e2f0b0a8659529742ff4f4fe818732636de1b"
+  }
 }

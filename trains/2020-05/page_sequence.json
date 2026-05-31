@@ -463,5 +463,10 @@
       "type": "unknown",
       "source": "unknown"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "b876b94761e7d1fac6d9539be48bc7f8",
+    "sha256": "99cbb176c46882d11119eaa977461ab0692255226679759ab9e46227709caa3b",
+    "sha512": "677ee19bd497e125bfc55a9f5c407c06f507140ee045423967efe9e9715cc42bb1692f756c22fb617afac99e33d5adf1d0a6abeb8e29430520a2573a753be3ab"
+  }
 }

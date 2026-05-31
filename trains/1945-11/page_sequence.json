@@ -234,5 +234,10 @@
       "printed_page": "48",
       "source": "human"
     }
-  ]
+  ],
+  "pdf_hashes": {
+    "md5": "609f362731d0f45ff0f5971b93d947cd",
+    "sha256": "0725185e3cb1811a6c29b09af3727c02333ea002f11fdd283b21a20af39842ce",
+    "sha512": "9ea3f0f1ea333cb7fd4912330de8c08281ea959cb3ebe6ce713131f04b66e252cc1cc9d9865f6b0b5a278ca1788ddac67d03f5ea20eefcb4cfdb4e41912716ad"
+  }
 }

@@ -22,6 +22,30 @@
       "type": "integer",
       "const": 1
     },
+    "pdf_hashes": {
+      "type": "object",
+      "description": "Cryptographic hashes of the source PDF at the time it was indexed. Use to detect accidental replacement or corruption of the PDF. Absent when the PDF was not accessible during indexing.",
+      "required": [
+        "md5",
+        "sha256",
+        "sha512"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "md5": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "sha512": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{128}$"
+        }
+      }
+    },
     "pages": {
       "type": "array",
       "description": "Ordered sequence of pages, one entry per physical page in the PDF. Array order mirrors PDF page order. One pdf_page value may appear in multiple consecutive entries when a single PDF page contains several printed pages (gatefolds, concatenation accidents).",

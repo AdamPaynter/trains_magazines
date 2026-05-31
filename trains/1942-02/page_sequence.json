@@ -2,6 +2,8 @@
   "magazine": "trains",
   "issue": "1942-02",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 52,
   "pages": [
     {
       "pdf_page": 1,

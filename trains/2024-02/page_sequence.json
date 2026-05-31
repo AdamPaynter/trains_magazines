@@ -2,6 +2,8 @@
   "magazine": "trains",
   "issue": "2024-02",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 100,
   "pages": [
     {
       "pdf_page": 1,

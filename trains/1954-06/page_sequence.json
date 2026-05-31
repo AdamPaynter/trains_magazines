@@ -2,6 +2,8 @@
   "magazine": "trains",
   "issue": "1954-06",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 68,
   "pages": [
     {
       "pdf_page": 1,

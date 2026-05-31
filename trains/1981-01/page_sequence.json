@@ -2,6 +2,8 @@
   "magazine": "trains",
   "issue": "1981-01",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 72,
   "pages": [
     {
       "pdf_page": 1,

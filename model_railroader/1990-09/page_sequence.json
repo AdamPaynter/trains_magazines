@@ -2,6 +2,8 @@
   "magazine": "model_railroader",
   "issue": "1990-09",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 172,
   "pages": [
     {
       "pdf_page": 1,

@@ -2,6 +2,8 @@
   "magazine": "trains",
   "issue": "1993-05",
   "schema_version": 1,
+  "first_pdf_page": 1,
+  "last_pdf_page": 124,
   "pages": [
     {
       "pdf_page": 1,

@@ -8,7 +8,7 @@
     "magazine",
     "issue",
     "schema_version",
-    "things"
+    "pages"
   ],
   "additionalProperties": false,
   "properties": {
@@ -22,9 +22,9 @@
       "type": "integer",
       "const": 1
     },
-    "things": {
+    "pages": {
       "type": "array",
-      "description": "Ordered sequence of things, one per physical object in the PDF. Array order mirrors PDF page order. One pdf_page value may appear in multiple consecutive entries when a single PDF page contains several printed pages (gatefolds, concatenation accidents).",
+      "description": "Ordered sequence of pages, one entry per physical page in the PDF. Array order mirrors PDF page order. One pdf_page value may appear in multiple consecutive entries when a single PDF page contains several printed pages (gatefolds, concatenation accidents).",
       "items": {
         "type": "object",
         "required": [
@@ -56,38 +56,31 @@
             "description": "How this entry was determined. \"human\": directly reviewed by a human in the review UI. \"ocr\": page number read from the rendered page image by OCR. \"inferred\": derived by linear interpolation across a verified clean gap (extra=0) between two human/OCR anchors. \"unknown\": pdf_page exists in the PDF but its content has not been determined."
           }
         },
-        "if": {
-          "properties": {
-            "type": {
-              "const": "editorial_page"
-            }
-          }
-        },
-        "then": {
-          "required": [
-            "printed_page"
-          ],
-          "properties": {
-            "printed_page": {
-              "$ref": "common.schema.json#/$defs/PrintedPageNumber",
-              "description": "The page number as it appeared printed on the physical page."
-            }
-          }
-        },
-        "else": {
-          "if": {
+        "oneOf": [
+          {
+            "title": "EditorialPage",
+            "properties": {
+              "type": {
+                "const": "editorial_page"
+              },
+              "printed_page": {
+                "$ref": "common.schema.json#/$defs/PrintedPageNumber",
+                "description": "The page number as it appeared printed on the physical page."
+              }
+            },
+            "required": [
+              "pdf_page",
+              "type",
+              "source",
+              "printed_page"
+            ]
+          },
+          {
+            "title": "CardFace",
             "properties": {
               "type": {
                 "const": "card_face"
-              }
-            }
-          },
-          "then": {
-            "required": [
-              "side",
-              "associated_page"
-            ],
-            "properties": {
+              },
               "side": {
                 "type": "string",
                 "enum": [
@@ -101,33 +94,53 @@
                 "pattern": "^\\d+$",
                 "description": "The printed_page_number of the last editorial page immediately preceding this card in the physical issue. E.g. \"82\" if the card appears after printed page 82."
               }
-            }
+            },
+            "required": [
+              "pdf_page",
+              "type",
+              "source",
+              "side",
+              "associated_page"
+            ]
           },
-          "else": {
-            "if": {
-              "properties": {
-                "type": {
-                  "const": "unnumbered"
-                }
+          {
+            "title": "UnnumberedPage",
+            "properties": {
+              "type": {
+                "const": "unnumbered"
+              },
+              "subtype": {
+                "type": "string",
+                "enum": [
+                  "cover",
+                  "back_cover",
+                  "inside_cover",
+                  "blank",
+                  "insert"
+                ],
+                "description": "Optional finer classification of the unnumbered page."
               }
             },
-            "then": {
-              "properties": {
-                "subtype": {
-                  "type": "string",
-                  "enum": [
-                    "cover",
-                    "back_cover",
-                    "inside_cover",
-                    "blank",
-                    "insert"
-                  ],
-                  "description": "Optional finer classification of the unnumbered page."
-                }
+            "required": [
+              "pdf_page",
+              "type",
+              "source"
+            ]
+          },
+          {
+            "title": "UnknownPage",
+            "properties": {
+              "type": {
+                "const": "unknown"
               }
-            }
+            },
+            "required": [
+              "pdf_page",
+              "type",
+              "source"
+            ]
           }
-        }
+        ]
       }
     }
   }

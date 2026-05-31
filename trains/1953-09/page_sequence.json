@@ -2,7 +2,7 @@
   "magazine": "trains",
   "issue": "1953-09",
   "schema_version": 1,
-  "things": [
+  "pages": [
     {
       "pdf_page": 1,
       "type": "unknown",

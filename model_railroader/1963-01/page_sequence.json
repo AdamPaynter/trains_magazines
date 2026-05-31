@@ -2,7 +2,7 @@
   "magazine": "model_railroader",
   "issue": "1963-01",
   "schema_version": 1,
-  "things": [
+  "pages": [
     {
       "pdf_page": 1,
       "type": "unknown",

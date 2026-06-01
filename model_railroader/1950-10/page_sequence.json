@@ -9,8 +9,9 @@
   "pages": [
     {
       "pdf_page": 1,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "unnumbered",
+      "subtype": "cover",
+      "source": "human"
     },
     {
       "pdf_page": 2,

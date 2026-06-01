@@ -572,13 +572,13 @@
     },
     {
       "pdf_page": 105,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "unnumbered",
+      "source": "human"
     },
     {
       "pdf_page": 106,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "unnumbered",
+      "source": "human"
     },
     {
       "pdf_page": 107,

@@ -4,13 +4,14 @@
   "schema_version": 1,
   "first_pdf_page": 1,
   "last_pdf_page": 30,
-  "first_printed_page": "280",
+  "first_printed_page": "253",
   "last_printed_page": "280",
   "pages": [
     {
       "pdf_page": 1,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "253",
+      "source": "human"
     },
     {
       "pdf_page": 2,

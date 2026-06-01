@@ -9,8 +9,9 @@
   "pages": [
     {
       "pdf_page": 1,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "1",
+      "source": "inferred"
     },
     {
       "pdf_page": 2,

@@ -4,18 +4,20 @@
   "schema_version": 1,
   "first_pdf_page": 1,
   "last_pdf_page": 172,
-  "first_printed_page": "3",
+  "first_printed_page": "1",
   "last_printed_page": "164",
   "pages": [
     {
       "pdf_page": 1,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "1",
+      "source": "human"
     },
     {
       "pdf_page": 2,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "2",
+      "source": "inferred"
     },
     {
       "pdf_page": 3,

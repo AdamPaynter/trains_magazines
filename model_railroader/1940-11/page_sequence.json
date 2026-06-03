@@ -4,7 +4,7 @@
   "schema_version": 1,
   "first_pdf_page": 1,
   "last_pdf_page": 60,
-  "first_printed_page": "616",
+  "first_printed_page": "66",
   "last_printed_page": "646",
   "pages": [
     {
@@ -139,18 +139,21 @@
     },
     {
       "pdf_page": 27,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "66",
+      "source": "inferred"
     },
     {
       "pdf_page": 28,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "614",
+      "source": "ocr"
     },
     {
       "pdf_page": 29,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "615",
+      "source": "inferred"
     },
     {
       "pdf_page": 30,

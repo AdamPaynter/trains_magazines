@@ -30,9 +30,8 @@
     },
     {
       "pdf_page": 5,
-      "type": "editorial_page",
-      "printed_page": "2",
-      "source": "ocr"
+      "type": "unknown",
+      "source": "unknown"
     },
     {
       "pdf_page": 6,
@@ -42,13 +41,14 @@
     {
       "pdf_page": 7,
       "type": "editorial_page",
-      "printed_page": "6",
-      "source": "ocr"
+      "printed_page": "5",
+      "source": "inferred"
     },
     {
       "pdf_page": 8,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "6",
+      "source": "inferred"
     },
     {
       "pdf_page": 9,

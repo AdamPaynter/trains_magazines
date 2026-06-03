@@ -149,25 +149,25 @@
       "pdf_page": 24,
       "type": "editorial_page",
       "printed_page": "24",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 25,
       "type": "editorial_page",
       "printed_page": "25",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 26,
       "type": "editorial_page",
       "printed_page": "26",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 27,
       "type": "editorial_page",
       "printed_page": "27",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 28,
@@ -181,9 +181,8 @@
     },
     {
       "pdf_page": 30,
-      "type": "editorial_page",
-      "printed_page": "34",
-      "source": "ocr"
+      "type": "unknown",
+      "source": "unknown"
     },
     {
       "pdf_page": 31,
@@ -232,30 +231,33 @@
     },
     {
       "pdf_page": 40,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "36",
+      "source": "inferred"
     },
     {
       "pdf_page": 41,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "37",
+      "source": "inferred"
     },
     {
       "pdf_page": 42,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "38",
+      "source": "inferred"
     },
     {
       "pdf_page": 43,
       "type": "editorial_page",
       "printed_page": "39",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 44,
       "type": "editorial_page",
       "printed_page": "40",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 45,

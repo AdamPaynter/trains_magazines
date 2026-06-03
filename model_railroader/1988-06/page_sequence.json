@@ -137,19 +137,19 @@
       "pdf_page": 22,
       "type": "editorial_page",
       "printed_page": "22",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 23,
       "type": "editorial_page",
       "printed_page": "23",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 24,
       "type": "editorial_page",
       "printed_page": "24",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 25,
@@ -161,37 +161,37 @@
       "pdf_page": 26,
       "type": "editorial_page",
       "printed_page": "26",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 27,
       "type": "editorial_page",
       "printed_page": "27",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 28,
       "type": "editorial_page",
       "printed_page": "28",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 29,
       "type": "editorial_page",
       "printed_page": "29",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 30,
       "type": "editorial_page",
       "printed_page": "30",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 31,
       "type": "editorial_page",
       "printed_page": "31",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 32,
@@ -203,7 +203,7 @@
       "pdf_page": 33,
       "type": "editorial_page",
       "printed_page": "33",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 34,
@@ -228,20 +228,21 @@
     },
     {
       "pdf_page": 38,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "34",
+      "source": "ocr"
     },
     {
       "pdf_page": 39,
       "type": "editorial_page",
       "printed_page": "35",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 40,
       "type": "editorial_page",
       "printed_page": "36",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 41,

@@ -4,18 +4,20 @@
   "schema_version": 1,
   "first_pdf_page": 1,
   "last_pdf_page": 100,
-  "first_printed_page": "92",
+  "first_printed_page": "1",
   "last_printed_page": "92",
   "pages": [
     {
       "pdf_page": 1,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "1",
+      "source": "human"
     },
     {
       "pdf_page": 2,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "619",
+      "source": "ocr"
     },
     {
       "pdf_page": 3,
@@ -129,8 +131,10 @@
     },
     {
       "pdf_page": 25,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "22",
+      "source": "human"
     },
     {
       "pdf_page": 26,
@@ -254,28 +258,33 @@
     },
     {
       "pdf_page": 50,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "46",
+      "source": "human"
     },
     {
       "pdf_page": 51,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "47",
+      "source": "ocr"
     },
     {
       "pdf_page": 52,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "48",
+      "source": "ocr"
     },
     {
       "pdf_page": 53,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "49",
+      "source": "ocr"
     },
     {
       "pdf_page": 54,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "50",
+      "source": "ocr"
     },
     {
       "pdf_page": 55,
@@ -284,8 +293,9 @@
     },
     {
       "pdf_page": 56,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "65",
+      "source": "ocr"
     },
     {
       "pdf_page": 57,
@@ -309,8 +319,9 @@
     },
     {
       "pdf_page": 61,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "687",
+      "source": "ocr"
     },
     {
       "pdf_page": 62,
@@ -379,8 +390,10 @@
     },
     {
       "pdf_page": 75,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "70",
+      "source": "human"
     },
     {
       "pdf_page": 76,

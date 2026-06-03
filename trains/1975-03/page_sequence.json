@@ -11,7 +11,7 @@
       "pdf_page": 1,
       "type": "editorial_page",
       "printed_page": "1",
-      "source": "inferred"
+      "source": "human"
     },
     {
       "pdf_page": 2,
@@ -131,7 +131,7 @@
       "pdf_page": 21,
       "type": "editorial_page",
       "printed_page": "21",
-      "source": "ocr"
+      "source": "human"
     },
     {
       "pdf_page": 22,
@@ -191,13 +191,13 @@
       "pdf_page": 31,
       "type": "editorial_page",
       "printed_page": "31",
-      "source": "ocr"
+      "source": "human"
     },
     {
       "pdf_page": 32,
       "type": "editorial_page",
       "printed_page": "32",
-      "source": "inferred"
+      "source": "ocr"
     },
     {
       "pdf_page": 33,

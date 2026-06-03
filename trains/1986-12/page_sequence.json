@@ -157,13 +157,15 @@
     },
     {
       "pdf_page": 26,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "24",
+      "source": "human"
     },
     {
       "pdf_page": 27,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "25",
+      "source": "human"
     },
     {
       "pdf_page": 28,

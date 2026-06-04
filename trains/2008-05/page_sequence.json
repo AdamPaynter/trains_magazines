@@ -292,8 +292,9 @@
     },
     {
       "pdf_page": 49,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "R-7",
+      "source": "human"
     },
     {
       "pdf_page": 50,
@@ -353,8 +354,9 @@
     },
     {
       "pdf_page": 61,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "R-19",
+      "source": "human"
     },
     {
       "pdf_page": 62,

@@ -152,13 +152,13 @@
       "pdf_page": 25,
       "type": "editorial_page",
       "printed_page": "21",
-      "source": "inferred"
+      "source": "human"
     },
     {
       "pdf_page": 26,
       "type": "editorial_page",
       "printed_page": "22",
-      "source": "inferred"
+      "source": "human"
     },
     {
       "pdf_page": 27,

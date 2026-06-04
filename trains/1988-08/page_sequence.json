@@ -21,8 +21,9 @@
     },
     {
       "pdf_page": 3,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "3",
+      "source": "human"
     },
     {
       "pdf_page": 4,
@@ -46,7 +47,7 @@
       "pdf_page": 7,
       "type": "editorial_page",
       "printed_page": "7",
-      "source": "inferred"
+      "source": "human"
     },
     {
       "pdf_page": 8,

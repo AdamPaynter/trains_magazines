@@ -177,8 +177,9 @@
     },
     {
       "pdf_page": 29,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "29",
+      "source": "human"
     },
     {
       "pdf_page": 30,
@@ -199,8 +200,9 @@
     },
     {
       "pdf_page": 33,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "30c",
+      "source": "human"
     },
     {
       "pdf_page": 34,

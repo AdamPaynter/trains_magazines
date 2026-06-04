@@ -666,8 +666,10 @@
     },
     {
       "pdf_page": 113,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "90",
+      "source": "human"
     },
     {
       "pdf_page": 114,

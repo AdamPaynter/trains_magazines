@@ -123,13 +123,16 @@
     },
     {
       "pdf_page": 21,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "18",
+      "source": "human"
     },
     {
       "pdf_page": 22,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "48",
+      "source": "ocr"
     },
     {
       "pdf_page": 23,
@@ -542,8 +545,10 @@
     },
     {
       "pdf_page": 93,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "82",
+      "source": "human"
     },
     {
       "pdf_page": 94,

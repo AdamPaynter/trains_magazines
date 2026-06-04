@@ -385,8 +385,9 @@
     },
     {
       "pdf_page": 64,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "67",
+      "source": "ocr"
     },
     {
       "pdf_page": 65,

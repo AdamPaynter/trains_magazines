@@ -29,7 +29,7 @@
       "pdf_page": 4,
       "type": "editorial_page",
       "printed_page": "4",
-      "source": "inferred"
+      "source": "human"
     },
     {
       "pdf_page": 5,
@@ -134,18 +134,21 @@
     },
     {
       "pdf_page": 22,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "19",
+      "source": "ocr"
     },
     {
       "pdf_page": 23,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "21",
+      "source": "ocr"
     },
     {
       "pdf_page": 24,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "22",
+      "source": "inferred"
     },
     {
       "pdf_page": 25,

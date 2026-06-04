@@ -219,8 +219,10 @@
     },
     {
       "pdf_page": 36,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "34",
+      "source": "human"
     },
     {
       "pdf_page": 37,

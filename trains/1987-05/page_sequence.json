@@ -231,13 +231,15 @@
     },
     {
       "pdf_page": 38,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "59",
+      "source": "ocr"
     },
     {
       "pdf_page": 39,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "524",
+      "source": "ocr"
     },
     {
       "pdf_page": 40,

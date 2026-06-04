@@ -122,8 +122,8 @@
     },
     {
       "pdf_page": 20,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "unnumbered",
+      "source": "human"
     },
     {
       "pdf_page": 21,

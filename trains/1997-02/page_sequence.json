@@ -553,8 +553,10 @@
     },
     {
       "pdf_page": 93,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "86",
+      "source": "human"
     },
     {
       "pdf_page": 94,

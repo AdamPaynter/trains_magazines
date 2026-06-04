@@ -152,8 +152,9 @@
     },
     {
       "pdf_page": 26,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "19",
+      "source": "ocr"
     },
     {
       "pdf_page": 27,
@@ -276,18 +277,23 @@
     },
     {
       "pdf_page": 47,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "38",
+      "source": "human"
     },
     {
       "pdf_page": 48,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "38",
+      "source": "human"
     },
     {
       "pdf_page": 49,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "39",
+      "source": "human"
     },
     {
       "pdf_page": 50,
@@ -381,13 +387,17 @@
     },
     {
       "pdf_page": 65,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "54",
+      "source": "human"
     },
     {
       "pdf_page": 66,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "54",
+      "source": "human"
     },
     {
       "pdf_page": 67,

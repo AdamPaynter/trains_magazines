@@ -141,13 +141,17 @@
     },
     {
       "pdf_page": 23,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "front",
+      "associated_page": "22",
+      "source": "human"
     },
     {
       "pdf_page": 24,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "card_face",
+      "side": "back",
+      "associated_page": "22",
+      "source": "human"
     },
     {
       "pdf_page": 25,
@@ -625,8 +629,9 @@
     },
     {
       "pdf_page": 104,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "99",
+      "source": "ocr"
     },
     {
       "pdf_page": 105,
@@ -650,8 +655,9 @@
     },
     {
       "pdf_page": 109,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "100",
+      "source": "ocr"
     },
     {
       "pdf_page": 110,

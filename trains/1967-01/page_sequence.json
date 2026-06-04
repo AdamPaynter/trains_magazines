@@ -183,8 +183,9 @@
     },
     {
       "pdf_page": 30,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "8",
+      "source": "ocr"
     },
     {
       "pdf_page": 31,
@@ -193,13 +194,15 @@
     },
     {
       "pdf_page": 32,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "9",
+      "source": "ocr"
     },
     {
       "pdf_page": 33,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "36",
+      "source": "ocr"
     },
     {
       "pdf_page": 34,
@@ -208,8 +211,9 @@
     },
     {
       "pdf_page": 35,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "I5",
+      "source": "human"
     },
     {
       "pdf_page": 36,

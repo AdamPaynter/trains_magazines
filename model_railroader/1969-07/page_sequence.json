@@ -267,8 +267,9 @@
     },
     {
       "pdf_page": 44,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "44",
+      "source": "human"
     },
     {
       "pdf_page": 45,

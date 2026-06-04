@@ -15,8 +15,9 @@
     },
     {
       "pdf_page": 2,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "7",
+      "source": "ocr"
     },
     {
       "pdf_page": 3,

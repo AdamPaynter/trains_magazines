@@ -287,7 +287,7 @@
       "pdf_page": 47,
       "type": "editorial_page",
       "printed_page": "47",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 48,
@@ -359,7 +359,7 @@
       "pdf_page": 59,
       "type": "editorial_page",
       "printed_page": "59",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 60,
@@ -395,7 +395,7 @@
       "pdf_page": 65,
       "type": "editorial_page",
       "printed_page": "65",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 66,

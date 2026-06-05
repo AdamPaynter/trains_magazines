@@ -155,7 +155,7 @@
       "pdf_page": 25,
       "type": "editorial_page",
       "printed_page": "21",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 26,
@@ -183,13 +183,15 @@
     },
     {
       "pdf_page": 30,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "26",
+      "source": "inferred"
     },
     {
       "pdf_page": 31,
-      "type": "unknown",
-      "source": "unknown"
+      "type": "editorial_page",
+      "printed_page": "27",
+      "source": "inferred"
     },
     {
       "pdf_page": 32,
@@ -213,7 +215,7 @@
       "pdf_page": 35,
       "type": "editorial_page",
       "printed_page": "31",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 36,
@@ -459,7 +461,7 @@
       "pdf_page": 76,
       "type": "editorial_page",
       "printed_page": "68",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 77,

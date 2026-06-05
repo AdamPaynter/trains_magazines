@@ -503,13 +503,13 @@
       "pdf_page": 84,
       "type": "editorial_page",
       "printed_page": "74",
-      "source": "inferred"
+      "source": "ocr"
     },
     {
       "pdf_page": 85,
       "type": "editorial_page",
-      "printed_page": "75",
-      "source": "ocr"
+      "printed_page": "74",
+      "source": "inferred"
     },
     {
       "pdf_page": 86,

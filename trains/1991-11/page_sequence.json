@@ -101,13 +101,13 @@
       "pdf_page": 16,
       "type": "editorial_page",
       "printed_page": "16",
-      "source": "inferred"
+      "source": "ocr"
     },
     {
       "pdf_page": 17,
       "type": "editorial_page",
       "printed_page": "17",
-      "source": "ocr"
+      "source": "inferred"
     },
     {
       "pdf_page": 18,
